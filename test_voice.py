@@ -41,7 +41,7 @@ def main():
 
     # Initialize webcam
     print("Initializing webcam...")
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
 
     if not cap.isOpened():
         print("Error: Could not open webcam")
